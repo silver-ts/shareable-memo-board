@@ -2,9 +2,10 @@ package server
 
 import (
 	"fmt"
-	"memos/server/profile"
-	"memos/store"
 	"time"
+
+	"github.com/silver-ts/memos/server/profile"
+	"github.com/silver-ts/memos/store"
 
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"

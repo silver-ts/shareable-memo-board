@@ -2,10 +2,11 @@ package server
 
 import (
 	"fmt"
-	"memos/api"
-	"memos/common"
 	"net/http"
 	"strconv"
+
+	"github.com/silver-ts/memos/api"
+	"github.com/silver-ts/memos/common"
 
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo-contrib/session"

@@ -1,4 +1,4 @@
-module memos
+module github.com/silver-ts/memos
 
 go 1.17
 
