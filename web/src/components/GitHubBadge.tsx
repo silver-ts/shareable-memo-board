@@ -13,18 +13,17 @@ const GitHubBadge: React.FC<Props> = () => {
     });
   }, []);
 
-  const handleClick = () => {
-    window.location.href = "https://github.com/silver-ts/memos";
-  };
-
   return (
-    <div className="github-badge-container" onClick={handleClick}>
+    <a className="github-badge-container" href="https://github.com/silver-ts/memos">
       <div className="github-icon">
         <img className="icon-img" src="/github.webp" alt="" />
         Star
       </div>
-      <span className={`count-text ${starCount || "pulse"}`}>{starCount || "🌟"}</span>
-    </div>
+      <div className="count-text">
+        {starCount || ""}
+        <span className="icon-text">🌟</span>
+      </div>
+    </a>
   );
 };
 
