@@ -2,6 +2,7 @@
 Easiy create memos and share them with others.
 
 ## Technologies & Tools
+- Go
 - React
 - Redux
 - i18n
